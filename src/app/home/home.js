@@ -87,6 +87,24 @@ angular.module( 'comparcelTester.home', [
                 signature: '',
                 printer: '',
                 payment: ''
+            },
+            {
+                label:'UK to FR Insured',
+                from:1,
+                type:1,
+                weight:2,
+                to:329,
+                length:50,
+                width:30,
+                height:30,
+                speed: '',
+                insurance:"&pound;500",
+                despatch: '',
+                receipt: '',
+                tracking: '',
+                signature: '',
+                printer:'',
+                payment:''
             }];
 
             // set the price details
