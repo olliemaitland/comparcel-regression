@@ -1,8 +1,7 @@
-angular.module( 'ngBoilerplate', [
+angular.module( 'comparcelTester', [
   'templates-app',
   'templates-common',
-  'ngBoilerplate.home',
-  'ngBoilerplate.about',
+  'comparcelTester.home',
   'ui.state',
   'ui.route'
 ])
@@ -12,7 +11,7 @@ angular.module( 'ngBoilerplate', [
 })
 
 .run( function run ( titleService ) {
-  titleService.setSuffix( ' | ngBoilerplate' );
+  titleService.setSuffix( ' | comparcel.com' );
 })
 
 .controller( 'AppCtrl', function AppCtrl ( $scope, $location ) {
