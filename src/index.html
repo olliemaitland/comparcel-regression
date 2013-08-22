@@ -5,14 +5,14 @@
 
     <!-- social media tags -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@olliemaitland">
+    <meta name="twitter:site" content="@comparcel">
     <meta name="twitter:title" content="comparcelTester">
     <meta name="twitter:description" content="Non-Trivial AngularJS Made Easy: Everything you need to kickstart AngularJS projects: a best-practice directory structure, an intelligent build system, and the best web design libraries around.">
-    <meta name="twitter:creator" content="@joshdmiller">
+    <meta name="twitter:creator" content="@olliemaitland">
     <meta name="twitter:image:src" content="https://a248.e.akamai.net/assets.github.com/images/modules/logos_page/Octocat.png?1366128846">
-    <meta property="og:title" content="ngBoilerplate" />
+    <meta property="og:title" content="Comparcel Regression" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://bit.ly/ngBoilerplate" />
+    <meta property="og:url" content="http://comparcel.com" />
     <meta property="og:image" content="https://a248.e.akamai.net/assets.github.com/images/modules/logos_page/Octocat.png?1366128846" />
     <meta property="og:description" content="Non-Trivial AngularJS Made Easy: Everything you need to kickstart AngularJS projects: a best-practice directory structure, an intelligent build system, and the best web design libraries around.">
 
@@ -46,7 +46,13 @@
                 <li ui-route="/home" ng-class="{active:$uiRoute}">
                   <a href="#/home">
                     <i class="icon-home"></i>
-                    Home
+                    Run
+                  </a>
+                </li>
+                <li ui-route="/payload" ng-class="{active:$uiRoute}">
+                  <a href="#/payload">
+                    <i class="icon-settings"></i>
+                    Payload
                   </a>
                 </li>
               </ul>
@@ -70,6 +76,7 @@
             (c) 2013 Comparcel Limited.
             <br />
             regression tester is based on
+            <a href="http://github.com/joshdmiller/ng-boilerplate">ng-Boilerplate</a>,
             <a href="http://www.angularjs.org">AngularJS</a>,
             <a href="http://getbootstrap.com">Bootstrap</a>, 
             <a href="http://angular-ui.github.com/bootstrap">UI Bootstrap</a>,

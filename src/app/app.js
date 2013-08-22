@@ -7,7 +7,9 @@ angular.module( 'comparcelTester', [
 ])
 
 .config( function myAppConfig ( $stateProvider, $urlRouterProvider ) {
-  $urlRouterProvider.otherwise( '/home' );
+
+    // default route is home
+    $urlRouterProvider.otherwise( '/home' );
 })
 
 .run( function run ( titleService ) {
@@ -15,6 +17,9 @@ angular.module( 'comparcelTester', [
 })
 
 .controller( 'AppCtrl', function AppCtrl ( $scope, $location ) {
+
+        // some main app stuff goes here
+
 })
 
 ;

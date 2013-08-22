@@ -1,8 +1,8 @@
 {
   "author": "Josh David Miller",
   "name": "ng-boilerplate",
-  "version": "0.3.0",
-  "homepage": "http://bit.ly/ng-boilerplate",
+  "version": "0.1",
+  "homepage": "http://comparcel.com",
   "licenses": {
     "type": "MIT",
     "url": "https://raw.github.com/joshdmiller/ng-boilerplate/master/LICENSE"

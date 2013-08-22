@@ -5,6 +5,8 @@
 
         <div class="row">
 
+        <div class="span6">
+
         <label for="username">Username</label>
         <input id="username" type="text" ng-model="config.username" />
 
@@ -13,7 +15,8 @@
 
         </div>
 
-        <div class="row">
+
+        <div class="span6">
 
         <label for="targetServer">Target server</label>
         <input id="targetServer" type="text" value="staging.comparcel.com" ng-model="config.target" />
@@ -22,6 +25,8 @@
         <input type="text" value="comparcel.com" ng-model="config.reference" />
 
         <button type="submit" class="btn" ng-click="runTests(config)">Submit</button>
+
+        </div>
 
         </div>
     </form>

@@ -49,7 +49,7 @@ angular.module( 'comparcelTester.home', [
 
             // loop through each of the bits
 
-            var testParameterSpec = [
+            /*var testParameterSpec = [
             {
                 label:'UK to UK',
                 from: 1,
@@ -105,7 +105,28 @@ angular.module( 'comparcelTester.home', [
                 signature: '',
                 printer:'',
                 payment:''
-            }];
+            },
+            {
+                label:'UK to VN',
+                from:1,
+                type:1,
+                weight:5,
+                to:475,
+                length:50,
+                width:30,
+                height:20,
+                speed: '',
+                insurance:'',
+                despatch: '',
+                receipt: '',
+                tracking: '',
+                signature: '',
+                printer:'',
+                payment:''
+            }];*/
+
+            // @todo pull from localStorage service
+            var testParameterSpec = window.localStorage.payloadContent;
 
             // set the price details
             priceService.setCredentials(config.username, config.password);
